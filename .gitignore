@@ -130,5 +130,6 @@ dist
 .pnp.*
 node/src/shared/*
 
-#Google Drive credentials
-#apikey.json
+Google Drive credentials
+apikey.json
+node/src/lib/apikey.json
