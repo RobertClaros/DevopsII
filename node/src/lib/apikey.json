@@ -1,13 +1,2 @@
 {
-  "type": "service_account",
-  "project_id": "codegraphix-420902",
-  "private_key_id": "cff9bbf574ea50cc24ee6bdb615328d6e77dee21",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDJM+nXnyH8i58H\nqA7yYp30/lmPV4l3RSQdVVJzp+Y9C4GfIcoVfwranDacgAxlPnGrj55kKSNg/GqI\neU5ygsA4CR7FpXBXCDqP8NmF4AfW3yprHJhYnOazelYtg/9IbxAtuI7Q2nuFMy1B\ntblNUvkaUyjFc/whx7GtC+KuZpweCJj5vFVhvn8Hq5d6xsaj7k6kNhW0gAbbGXII\nnkMZdmpQ9G8CinWLa2YZz6xQ/+piIQcMYulXhv0jbfknyX8mmSeCKz0nPRmuxw+N\nlQvJQOnrOuQTDwhPA/eCzLgiDDm+VGV36ktwz7TtzQme6bjfYL/0p9HvjDeUSJft\nR0G5CmWPAgMBAAECggEAEDe1gRJMGIGei2zx63qkdcNsr5+kLm9txkmC0Fy3s7Ly\nO0PreIkZdF6EDmBJ331Fh0kXwMYKGn6uDZsNhjBg0wN1LgQ0Rmec5M5Kkj5pE1pA\nnoqbAwV+mPfi619I2+tL2AuYw1/g9e8WlkXSDlgCSStrzWKYb5abjTG4j0spCUiO\nd52m0OglG/XlFJyM89Pk/fVENZOtIydvMO+yNCBIzWeDol831sm0xYfHyT8Mrl3U\n4T0a3EtapFjh9fzWU0XMkflya5+rba5QYjOdzSNTeBbD3lJzEqwsA7tI1F6tv736\nj1sagwgECIweBhQ2gV8A6hLgHwD98IAewQFShuz6NQKBgQDxihz9OQDFga/+p9PW\n5WLhPaA8fh5Kd1JCLxQBAlSY0HL0aTuCnCuprJ2Czowpgk1hv6OCINUDyInRupFI\nH5374IdTqoSk1JYeExH8t0Sxnzzpl3oijaMEI9Lm1Fl9CsZbNVcsrPbIcQV2OF5v\n7PAvYDwMIQFGBPIHt/1qnme35QKBgQDVP5dHXUBgkQH3vIE3sSDLsMSbKiBf6I9q\nLhAm0J7gtbnQYcc4n1t6Q7v48w+1E/JoNc07916MymafbLJARzYbk8eDLkGgFmrm\njLWav9YNDHivoQ0vXPQrOl9kCeZLeVdP2/9E8kv4HX8GXe49dR3mLxjq6QWOEWgw\n7Q1h6UCoYwKBgD7+SjkwWKcp/4BmvLTa9kLQE64zJis9m1JvfMQWm4GPO6vKlh6m\nJC0IO7wVqjBZL11C4Z3aejOWZXsxMRqiRE2gbSrA2f8zAkOtrY8/LMc2RGiXfN7u\nGYnG3gYdc4lM+hZnfujD40i7UTVX1ilSngF9E6wGH5LnT0f8EDdyQJKRAoGAPRCz\nslTqzXxY0udhHWCUop+g/Unn8W74OpCsQWE2TeTcK+cEFJvVp0JkPprj4Zevr9XQ\nSp7ArZJ8JqUKuktqHCWKWW9SjZQ90n1yt7i9hAkROkHlM63rocFadZw8HVrG/PBj\nvgugY5GWwWz+fwzdnf/Yo9RMqe0kJ/aKAYK46D8CgYEAtJJ5ehqr9xXMfHuwCQML\nKm2r9paL7IGnl29WKcZgx1qgbY5L5i0uqfmCQ8S/UM4dLss0BrbYEzUdbtbdC2Pt\nvPXWyPCrovCV2GCuYBuHfm2yGB8TQAmJ5VhamECRU5664i0Ewzrl0dUotg4f9RRs\n/pgBZnP+O8T1F5gLBT0TcWg=\n-----END PRIVATE KEY-----\n",
-  "client_email": "codegraphix@codegraphix-420902.iam.gserviceaccount.com",
-  "client_id": "100958949624473466702",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/codegraphix%40codegraphix-420902.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
 }
