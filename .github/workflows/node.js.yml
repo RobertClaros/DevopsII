@@ -14,7 +14,8 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Build Docker image
-      run: docker build -t robertclaros/storage-service-devopstest:latest .
+      run: cd node && docker build -t robertclaros/storage-service-devopstest:latest -f Dockerfile .
+
 
   newman-test:
     runs-on: ubuntu-latest
