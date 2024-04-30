@@ -1,0 +1,44 @@
+config:
+  target: "https://httpbin.org"
+  phases:
+    - duration: 10
+      arrivalRate: 5
+      name: Warm up
+    - duration: 60 #120
+      arrivalRate: 5
+      rampTo: 50
+      name: Ramp up load
+    - duration: 60 #600
+      arrivalRate: 50
+      name: Sustained load
+  payload:
+    path: "users.csv"
+    fields:
+      - "username"
+      - "password"
+
+scenarios:
+  - name: "Login and Logout"
+    flow:
+      - post:
+          url: "/anything/login"
+          json:
+            username: "{{ username }}"
+            password: "{{ password }}"
+          capture:
+            - json: "$.json.username"
+              as: "username"
+      - get:
+          url: "/uuid"
+          capture:
+            - json: "$.uuid"
+              as: "token"
+      - get:
+          url: "/anything/users/{{ username }}/details"
+          headers:
+            authorization: "{{ username }}_{{ token }}"
+      - think: 2
+      - post:
+          url: "/anything/logout"
+          json:
+            token: "{{ username }}_{{ token }}"

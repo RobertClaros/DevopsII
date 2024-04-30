@@ -30,3 +30,17 @@ jobs:
 
     - name: Run Newman tests
       run: newman run 'node/Storage Service API.postman_collection.json'
+
+  artillery-test:
+    runs-on: ubuntu-latest
+
+    needs: build-docker-image
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Run Artillery tests
+      run: |
+        $Env:DEBUG="http:response"
+        artillery run "api-perf-test.yml"
