@@ -40,8 +40,8 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Set DEBUG environment variable
-      run: export DEBUG="http:response"
+    - name: Install Artillery
+      run: npm install -g artillery
 
     - name: Run Artillery tests
       run: artillery run "api-perf-test.yml"
