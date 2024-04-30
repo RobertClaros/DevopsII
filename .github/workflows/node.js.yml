@@ -40,7 +40,8 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Set DEBUG environment variable
+      run: export DEBUG="http:response"
+
     - name: Run Artillery tests
-      run: |
-        $Env:DEBUG="http:response"
-        artillery run "api-perf-test.yml"
+      run: artillery run "api-perf-test.yml"
